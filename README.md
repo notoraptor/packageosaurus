@@ -1,2 +1,2 @@
 # packageosaurus
-A test repository
+A small test repository.
