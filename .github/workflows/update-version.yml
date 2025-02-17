@@ -29,5 +29,6 @@ jobs:
       - name: Commit changes
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
+          branch: main
           commit_message: Update package version
           file_pattern: 'pyproject.toml'
