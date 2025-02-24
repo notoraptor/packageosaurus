@@ -1,6 +1,15 @@
 # Inspired from:
 # https://gist.github.com/Broxzier/1ed980b8b3822d213e98042fc6a92040
 
+# https://stackoverflow.com/questions/60710209/trigger-github-actions-only-when-pr-is-merged
+# https://stackoverflow.com/questions/55657835/is-there-a-way-to-push-changes-with-a-github-action
+# https://github.com/stefanzweifel/git-auto-commit-action
+# https://github.com/stefanzweifel/git-auto-commit-action
+# https://stackoverflow.com/questions/70292203/is-it-possible-to-update-files-as-part-of-a-merge-via-github-actions-without-cre
+
+# https://stackoverflow.com/questions/14348432/how-to-find-replace-and-increment-a-matched-number-with-sed-awk
+# https://stackoverflow.com/questions/59757037/sed-command-doesnt-seem-to-process-quote-character-properly
+
 name: Update package version on PR merge
 on:
   pull_request:
